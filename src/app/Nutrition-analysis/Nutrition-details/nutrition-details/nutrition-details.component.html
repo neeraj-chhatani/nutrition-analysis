@@ -1,0 +1,10 @@
+
+<div class="main-container">
+     <h2>Recipe</h2>
+   <label> * Enter your ingredients for Recipe.Mention Quantity,Food Name</label>
+    <textarea [placeholder]="placeholder" [(ngModel)]="nutritionContent"></textarea>
+    <button class="btn_nutrition" [disabled]="!nutritionContent" (click)="analyzeNutrition()" mat-raised-button color="primary">Analyze</button>
+</div>
+
+
+

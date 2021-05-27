@@ -1,0 +1,39 @@
+.table_nutrition {
+  width: 75%;
+  margin: auto;
+}
+.all_ingr_summary {
+  display: flex;
+  justify-content: center;
+  color: #3f51b5;
+}
+.bg_spinner {
+  background-color: rgb(187, 177, 177);
+  height: 100%;
+}
+mat-spinner {
+  position: fixed;
+  top: 45%;
+  left: 50%;
+}
+
+.nutrition_btn {
+  margin: auto;
+  display: flex;
+  top: 2rem;
+}
+.totalNutrients__items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.table_nutrition__all {
+  margin-top: 3rem !important;
+  width: 75%;
+  margin: auto;
+}
+.bg_spinner h4 {
+  position: absolute;
+  top: 62%;
+  left: 47%;
+}
